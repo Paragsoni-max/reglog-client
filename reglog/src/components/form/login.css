@@ -1,0 +1,43 @@
+.login-form-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.login-form-body h1{
+    color:rgb(43, 43, 43);
+    margin: 20px 0;
+}
+.L-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    
+}
+.L-form input{
+    margin:15px 0px;
+    padding:10px;
+    outline: none;
+    font-size: large;
+    background: rgba(255, 255, 255, 0.747);
+    width:400px;
+    border:none;
+    border-bottom: 2px solid grey;
+    border-radius: 10px;
+}
+
+.L-form input[type=submit]{
+    width:100px;
+    font-weight: 500;
+    background: rgb(83, 83, 83);
+    color:white
+}
+
+.L-form input[type=submit]:hover{
+    background:rgb(0, 0, 0); ;
+}
